@@ -250,30 +250,33 @@
     margin-top: 80px;
   }
   .cardt3 {
-    width: 120%;
+    width: 100%;
     height: 100%;
     line-height: 2;
-    @background-color: pink;
     position: absolute;
-    top: 10%;
-    left: -15%;
+    top: 18%;
+    left: -5%;
     font-size: 18px;
     display: none;
     color: #222;
   }
 
   .cardt3 ul {
+    @background-color: rebeccapurple;
     display: flex;
+    flex-flow: row wrap;
+    width: 80%;
+    /* display: flex;
     width: 55%;
-    margin-top: 60px;
+    margin-top: 60px; */
   }
 
-  .cardt3 li {
-    width: 40%;
+  .cardt3 ul li {
+    width: 25%;
   }
  
   .cardt3 img {
-    width: 110%;
+    width: 100%;
   }
 
 
